@@ -37,6 +37,7 @@ a.tbl-pink {
     font-size: 15px;
     position: center;
     border-color: #FFFFFF;
+    text-decoration: none;
     
 }
 
@@ -58,28 +59,15 @@ h1{
     align-items: center;
     margin: 20px 10px 20px 10px;
     height: 5vh;
-    background: none;
-   
 }
 
-.p{
+p{
     justify-content: left;
-    margin: auto;
     background: none;
-    font-size: 10px;
-}
-
-
-.section {
-    margin: auto;
     position: relative;
-    margin-bottom: 50px;
-    display: flex;
-    
 }
 
 .logo {
-    font-size: 20px;
     font-weight: bold;
     text-align: left;
     position: relative;
@@ -127,11 +115,13 @@ h1{
     animation: fadeInLeft 1s ease forwards;
   }
 
-
 .halaman{
     width: 1000px;
-    margin: 100px;
+    margin: 110px;
     position: absolute;
+    font-size: 20px;
+    margin-right: 100px;
+    font-weight: 800;
     
 }
 
@@ -145,7 +135,6 @@ h1{
     width: 40%; 
     max-width: 60%; 
     height: 260px;
-    margin : 0;
     padding-top:0px;
     padding-bottom:0px;
 }
@@ -204,3 +193,6 @@ h1{
         height: auto;
     }   
     }
+
+
+    
